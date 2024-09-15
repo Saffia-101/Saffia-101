@@ -1,0 +1,95 @@
+body {
+   font-family:  Helvetica, sans-serif, Arial;
+   margin: 0px;
+}
+/* body child tag is the header tag */
+
+#logo{
+    margin: 0px;
+    padding: 10px;
+    font-family: "Inria Sans", sans-serif; /* if the font is two words, use quotation marks "" */
+    box-shadow: 5px 5px 5px rgb(247, 164, 69) ;
+
+
+
+}
+
+ul{
+    margin: 0px;
+
+}
+
+body > header {
+    background-color: rgb(247, 164, 69);
+    color: white ;
+    display: flex ;
+    height: 13vh ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.navbutton {
+    color: white ;
+    text-decoration: 0px ;
+    border: 2px solid white
+}
+
+body > main article {
+    width: 70% ;
+    margin: auto;
+}
+#main-content {
+    display: flex ;
+
+}
+
+#main-content aside{
+    width: 20%
+}
+form {
+    text-align: center ;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+body > footer {
+    background-color: rgb(247, 164, 69);
+}
+
+#nav_ul {
+    display: flex;
+}
+#nav_ul > li {
+    padding: 10px ;
+    margin: 16px ;
+
+}
+#footer-ul {
+    display: flex ;
+    list-style: none;
+}
+#footer-ul > div > li {
+    margin-left: 10px;
+
+}
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white ;
+
+}
+/* AVOID UNIVERSAL SELECTOR  ASTERIC (**) */
+/* Type selector: body, header, footer, main, p, div */
+/* Class selector: e.g. class='main button' to .main-button */
+/* ID selector: unique selector, selects all elements within id, id="main.logo to #mainlogo */
+/* Child selector: direct descendent of a tag */
+
+
